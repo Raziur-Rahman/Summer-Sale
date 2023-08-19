@@ -1,24 +1,74 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Summer Sale</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Sale</title>
 
-        <!-- play Cdn script link for daisy UI -->
-        <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
-        <script src="https://cdn.tailwindcss.com"></script>
+    <!-- play Cdn script link for daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Play CDN for Tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google font Script Here  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Work+Sans:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Customize color -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'com-black': '#111111',
+                        'com-p-color': '#11111150'
+
+                    }
+                }
+            }
+        }
+    </script>
+
+
+    <style>
+        .font-workSans {
+            font-family: 'Work Sans', sans-serif;
+        }
+    </style>
 
 
 
-    </head>
+</head>
 
-    <body class="bg-white">
-        <h1>hello bangladesh</h1>
+<body class="font-font-workSans">
+    <header>
+        <!-- Bannar section here  -->
+        <div class="px-52 flex bg-[#F9F6E2]">
+            <div class="text-center pt-28 w-1/2 ">
+                <h3 class="text-3xl text-com-black font-medium">---SALE FEVER---</h3>
+                <h1 class="text-5xl text-com-black font-bold mt-4 mb-4">Purchase TK 200 or <br> above & get <span
+                        class="text-[#E527B2]"> 20% off</span></h1>
+                <p class="text-2xl font-medium text-com-black">Use Promo Code <span
+                        class="bg-[#E527B2] px-2 py-1 rounded-md"><button>SELL200</button></span></p>
+            </div>
+            <div class="w-1/2">
+                <img class=" w-[500px] py-6" src="images/Summer 1.png" alt="Summer image here">
+            </div>
+        </div>
+
+    </header>
+    <main>
+
+    </main>
 
 
-        <script src="Script/index.js"></script>
-    </body>
+    <script src="Script/index.js"></script>
+</body>
 
 </html>

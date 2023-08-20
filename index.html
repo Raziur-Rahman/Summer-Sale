@@ -256,11 +256,11 @@
                     <div class="join ">
                         <div>
                             <div>
-                                <input class="input input-bordered join-item w-36" placeholder="Coupon code" />
+                                <input id="coupon-input" class="input input-bordered join-item w-36" placeholder="Coupon code" />
                             </div>
                         </div>
                         <div class="indicator">
-                            <button class="btn join-item max-w-fit text-white bg-[#E527B2]">Apply</button>
+                            <button id="coupon-btn" class="btn join-item max-w-fit text-white bg-[#E527B2]">Apply</button>
                         </div>
                     </div>
                 </div>
@@ -274,18 +274,18 @@
                     <hr class="my-2  h-[2px]  border-t-2 bg-gray-300 opacity-40 dark:opacity-80" />
 
                     <h3 class="text-base font-medium text-com-black text-left py-2">Total price: <span
-                            class="text-com-p-color"><span>00</span>TK</span></h3>
+                            class="text-com-p-color"><span id="Total-price">00</span>TK</span></h3>
                     <h3 class="text-base font-medium text-com-black text-left py-2">Discount: <span
-                            class="text-com-p-color"><span>00</span>TK</span></h3>
+                            class="text-com-p-color"><span id="discount-field">00</span>TK</span></h3>
                     <h3 class="text-base font-medium text-com-black text-left py-2">Total: <span
-                            class="text-com-p-color"><span>00</span>TK</span></h3>
+                            class="text-com-p-color"><span id="total">00</span> TK</span></h3>
 
                     <hr class="my-2  h-[2px]  border-t-2 bg-gray-300 opacity-40 dark:opacity-80" />
 
                     <!-- Open the modal using ID.showModal() method -->
-                    <button class="btn text-white bg-[#E527B2] w-full" onclick="my_modal_5.showModal()">Make Purchase</button>
+                    <button id="makePurchase-btn" class="btn text-white bg-[#E527B2] w-full" onclick="my_modal_5.showModal()">Make Purchase</button>
                     <dialog id="my_modal_5" class="modal modal-middle">
-                        <form method="dialog" class="modal-box flex flex-col items-center px-8 py-12 lg:px-10 lg:py-16">
+                        <form method="dialog" class="modal-box flex flex-col items-center px-2 py-3 md:px-4 md:py-8 lg:px-10 lg:py-14">
                             <img class="w-fit mb-5" src="images/congo.png" alt="Loading......">
                             <h3 class="font-bold text-4xl lg:text-5xl text-com-black">Congratulations</h3>
                             <p class="py-4 text-xl text-com-p-color font-normal">You Purchase the products</p>

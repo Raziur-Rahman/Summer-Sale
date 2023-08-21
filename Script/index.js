@@ -8,6 +8,8 @@ document.getElementById('modal-btn').addEventListener('click', function(){
     window.location.href = 'index.html';
 })
 
+// JS functions 
+
 function couponApply(){
     const discountField = document.getElementById('discount-field');
     const priceTotalText = document.getElementById('Total-price').innerText;
@@ -25,8 +27,8 @@ function couponApply(){
         return discount;
     }
     else{
-        inputField.value = '';
         alert("Wrong coupon. Enter a valid Coupon")
+        inputField.value = '';
     }
     
 

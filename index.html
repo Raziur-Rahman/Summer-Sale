@@ -66,42 +66,40 @@
 
     </header>
     <main class="py-9">
-        <section class="flex flex-col-reverse pl-3 lg:flex-row lg:px-56 ">
+        <section class="flex flex-col md:flex-col-reverse pl-3 lg:flex-row lg:px-56 ">
             <div class="flex-1 mr-4">
                 <!-- First Section  -->
-                <div>
+                <div class="sm:mt-10 lg:mt-0">
                     <h1 class="text-4xl font-semibold text-com-black py-3">Kitchenware </h1>
                     <div class="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-3">
                         <!-- First-Card -->
-                        <div onclick="addToCart(this)" class="card px-6 pt-6 bg-white" id="k-first">
-                            <figure class="px-16 py-8 rounded-xl bg-card-color">
+                        <div onclick="addToCart(this)" class="card pt-5 bg-white" id="k-first">
+                            <figure class="px-16 py-7 mx-5 rounded-xl bg-card-color">
                                 <img src="images/prod1.png" alt="Loading...." class="rounded-xl" />
                             </figure>
                             <div id="card-info" class="card-body items-center text-center">
                                 <div class="rating">
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
-                                        checked />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" checked />
+                                    <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <h2 class="card-title text-com-black">K. Accessories</h2>
                                 <p class="text-com-p-color font-medium"><span>39.00</span> TK</p>
                             </div>
                         </div>
                         <!-- Second Card -->
-                        <div onclick="addToCart(this)" class="card px-6 pt-6 bg-white">
-                            <figure class="px-10 py-5 rounded-xl bg-card-color">
+                        <div onclick="addToCart(this)" class="card pt-5 bg-white">
+                            <figure class="px-10 py-4 mx-5 rounded-xl bg-card-color">
                                 <img src="images/prod2.png" alt="Loading...." class="rounded-xl" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
-                                        checked />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <h2 class="card-title text-com-black">K. Accessories</h2>
@@ -109,18 +107,18 @@
                             </div>
                         </div>
                         <!-- Third Card -->
-                        <div onclick="addToCart(this)" class="card px-6 pt-6 bg-white">
-                            <figure class="px-10 py-5 rounded-xl bg-card-color">
+                        <div onclick="addToCart(this)" class="card pt-5 bg-white">
+                            <figure class="px-10 py-4 mx-5 rounded-xl bg-card-color">
                                 <img src="images/prod3.png" alt="Loading...." class="rounded-xl" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400"
                                         checked />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <h2 class="card-title text-com-black">Home Cooker</h2>
                                 <p class="text-com-p-color font-medium"><span>49.00</span> TK</p>
@@ -133,54 +131,52 @@
                     <h1 class="text-4xl font-semibold text-com-black py-3">Sportswear </h1>
                     <div class="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-3">
                         <!-- First-Card -->
-                        <div onclick="addToCart(this)" class="card pt-6 bg-white">
-                            <figure class="px-10 py-5 mx-6 rounded-xl bg-card-color">
+                        <div onclick="addToCart(this)" class="card pt-5 bg-white">
+                            <figure class="px-10 py-6 mx-5 rounded-xl bg-card-color">
                                 <img src="images/prod4.png" alt="Loading...." class="rounded-xl" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
-                                        checked />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" checked />
+                                    <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <h2 class="card-title text-com-black">Sports Back Cap</h2>
                                 <p class="text-com-p-color font-medium"><span>49.00</span> TK</p>
                             </div>
                         </div>
                         <!-- Second Card -->
-                        <div onclick="addToCart(this)" class="card px-6 pt-6 bg-white">
-                            <figure class="px-16 py-5 rounded-xl bg-card-color">
+                        <div onclick="addToCart(this)" class="card pt-5 bg-white">
+                            <figure class="px-16 py-6 mx-5 rounded-xl bg-card-color">
                                 <img src="images/prod5.png" alt="Loading...." class="rounded-xl" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400"
                                         checked />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <h2 class="card-title text-com-black">Full Jersey Set</h2>
                                 <p class="text-com-p-color font-medium"><span>69.00</span> TK</p>
                             </div>
                         </div>
                         <!-- Third Card -->
-                        <div onclick="addToCart(this)" class="card px-6 pt-6 bg-white">
-                            <figure class="px-12 py-5 rounded-xl bg-card-color">
+                        <div onclick="addToCart(this)" class="card pt-5 bg-white">
+                            <figure class="px-12 py-4 mx-5 rounded-xl bg-card-color">
                                 <img src="images/prod6.png" alt="Loading...." class="rounded-xl" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
-                                        checked />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked />
+                                    <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <h2 class="card-title text-com-black">Sports cates</h2>
                                 <p class="text-com-p-color font-medium"><span>159.00</span> TK</p>
@@ -193,54 +189,52 @@
                     <h1 class="text-4xl font-semibold text-com-black py-3">Furniture </h1>
                     <div class="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-3">
                         <!-- First-Card -->
-                        <div onclick="addToCart(this)" class="card  pt-6 bg-white">
-                            <figure class="px-14 py-5 mx-6 rounded-xl bg-card-color">
+                        <div onclick="addToCart(this)" class="card  pt-5 bg-white">
+                            <figure class="px-14 py-5 mx-5 rounded-xl bg-card-color">
                                 <img src="images/prod7.png" alt="Loading...." class="rounded-xl" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400"
                                         checked />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <h2 class="card-title text-xl text-com-black">Single Relax Chair</h2>
                                 <p class="text-com-p-color font-medium"><span>185.00</span> TK</p>
                             </div>
                         </div>
                         <!-- Second Card -->
-                        <div onclick="addToCart(this)" class="card px-6 pt-6 bg-white">
-                            <figure class="px-16 py-5 rounded-xl bg-card-color">
+                        <div onclick="addToCart(this)" class="card pt-5 bg-white">
+                            <figure class="px-16 py-6 mx-5 rounded-xl bg-card-color">
                                 <img src="images/prod8.png" alt="Loading...." class="rounded-xl" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
-                                        checked />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" checked />
                                 </div>
                                 <h2 class="card-title text-com-black">Children play</h2>
                                 <p class="text-com-p-color font-medium"><span>299.00</span> TK</p>
                             </div>
                         </div>
                         <!-- Third Card -->
-                        <div onclick="addToCart(this)" class="card px-6 pt-6 bg-white">
-                            <figure class="px-10 py-5 rounded-xl bg-card-color">
+                        <div onclick="addToCart(this)" class="card pt-5 bg-white">
+                            <figure class="px-10 py-4 mx-5 rounded-xl bg-card-color">
                                 <img src="images/prod9.png" alt="Loading...." class="rounded-xl" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
-                                        checked />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-9" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-9" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-9" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-9" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-9" class="mask mask-star-2 bg-orange-400" checked />
                                 </div>
                                 <h2 class="card-title text-com-black">Flexible Sofa</h2>
                                 <p class="text-com-p-color font-medium"><span>339.00</span> TK</p>
@@ -250,8 +244,8 @@
                 </div>
 
             </div>
-            <div class="pt-16">
-                <div class="flex flex-col items-center p-6 bg-white rounded-lg my-1 mx-1">
+            <div class="pt-16 mr-3">
+                <div class="flex flex-col p-6 bg-white rounded-lg my-1 mx-1">
                     <h1 class="text-xl text-com-black font-medium mb-3">Have coupon?</h1>
                     <div class="join ">
                         <div>
@@ -265,7 +259,7 @@
                     </div>
                 </div>
                 <!-- section-2  -->
-                <div class="bg-white rounded-lg p-4 my-2 mx-1">
+                <div class="bg-white rounded-lg px-4 pt-4 my-2 mx-1">
 
                     <ol id="cart-list" class="text-base font-medium pl-6 text-com-color list-decimal">
 
@@ -280,10 +274,10 @@
                     <h3 class="text-base font-medium text-com-black text-left py-2">Total: <span
                             class="text-com-p-color"><span id="total">00</span> TK</span></h3>
 
-                    <hr class="my-2  h-[2px]  border-t-2 bg-gray-300 opacity-40 dark:opacity-80" />
+                    <hr class="mt-2  h-[1px]  border-t-2 bg-gray-300 opacity-40 dark:opacity-80" />
 
                     <!-- Open the modal using ID.showModal() method -->
-                    <button id="makePurchase-btn" class="btn text-white bg-[#E527B2] w-full" onclick="my_modal_5.showModal()">Make Purchase</button>
+                    <button id="makePurchase-btn" class="btn text-white bg-[#E527B2] w-full relative top-6" onclick="my_modal_5.showModal()">Make Purchase</button>
                     <dialog id="my_modal_5" class="modal modal-middle">
                         <form method="dialog" class="modal-box flex flex-col items-center px-2 py-3 md:px-4 md:py-8 lg:px-10 lg:py-14">
                             <img class="w-fit mb-5" src="images/congo.png" alt="Loading......">
